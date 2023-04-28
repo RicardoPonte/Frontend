@@ -1,0 +1,21 @@
+body {
+background-image: url(../images/cosmonauta.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.767);
+    text-align: center;
+    border-color: aqua;
+    border-width: 1px; 
+    border-style: dashed;
+    font-size: 20px;
+}
+
+div h1 {
+    color: brown;
+    background-color: white;
+}
