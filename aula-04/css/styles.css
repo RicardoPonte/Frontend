@@ -1,0 +1,96 @@
+h1 {
+    color: red
+}
+
+/* SM - small */
+@media(min-width:576px ){
+    h1{
+        color: yellow;
+    }
+}
+
+/* md - medium */
+@media(min-width:768px ){
+    h1{
+        color: yellow;
+    }
+}
+
+/* lg - large */
+@media(min-width:992px ){
+    h1{
+        color: yellow;
+    }
+}
+
+/* EX - extra large */
+@media(min-width:1200px ){
+    h1{
+        color: yellow;
+    }
+}
+
+.btn-primary{
+    margin-bottom: 40px;
+}
+
+/* Explicação dos .container e .container-fluid */
+/* .container, .container-fluid {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 700;
+} */
+
+.container {
+    border: 5px dotted blue;
+    padding: 10px;
+}
+
+.row {
+    border: 5px solid purple;
+    margin: 0;
+    padding: 10px;
+}
+
+.col, .col-3 {
+    border: 2px dashed red;
+    padding: auto;
+}
+
+.display-flex {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background-color: lightsteelblue;
+    margin-top: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.minha-div {
+    height: 100px;
+    width: 200px;
+    background-color: bisque;
+    border: 1px solid blue;
+    text-align: center;
+    font-size: 15px;
+}
+
+.self {
+    align-self: flex-end;
+}
+
+.justify-content-between{
+    border: 1px solid red;
+}
+
+#minha-row {
+    height: 150px;
+}
+
+#minha-row .col-3 {
+    background-color: bisque;
+}
