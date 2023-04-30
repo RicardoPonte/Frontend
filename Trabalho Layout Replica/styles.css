@@ -1,0 +1,171 @@
+body {
+    background-image: linear-gradient(to bottom right, rgb(5,187,253), rgb(141,58,218));
+    background-repeat: no-repeat;
+    background-size: center;
+    
+}
+
+.principal {
+    width:800px;
+    height: 800px;
+    background-color: white;
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    border: 5px solid rgb(230,230,230);;
+}
+
+.menu {
+    background-color: rgb(230,230,230);
+    width:100%;
+    height: 95px;
+    position: relative;
+    top: 0;
+    border-radius: 30px 30px 0 0;
+}
+
+.circulo-colorido {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    padding-left: 15px;
+} 
+
+.bolinha {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.bolinha-1 {
+    background-color:rgb(235,64,108);
+  }
+  
+  .bolinha-2 {
+    background-color: rgb(253,202,77);
+  }
+  
+  .bolinha-3 {
+    background-color: rgb(1,162,141);
+}
+
+.quadrados {
+    display: flex;
+    width: 100%;
+    height: 38px;
+}
+
+.retangulo {
+    background-color: white ;
+    margin-right: 5px;
+    margin-left: 5px;
+    flex: 1;
+    border-radius: 5px;
+}
+
+.maior {
+    flex: 4;
+}
+
+.container {
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    height: 40px;
+    justify-content: space-around;
+}
+
+.ret {
+    background-color: rgb(230,230,230);
+    flex: 1; 
+    margin-left: 10px;
+   
+}
+
+.ret-azul {
+    background-color: rgb(1, 164, 212);
+}
+
+.ret-main {
+    display: flex;
+    margin-left: 70px;
+    margin-right: 60px;
+    height: 550px;
+    
+}
+
+.lateral-direita {
+    display: flex;
+    flex: 1;
+    height: 550px;
+    width: 150px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+}
+.lateral-esquerdo {
+    flex: 2;
+}
+
+.ret-cinza {
+    position:relative;
+    background-color: rgb(230,230,230);
+    width:100%;
+    height: 250px;
+}
+
+.quadrado-azul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ret-azul1 {
+    background-color: rgb(1, 164, 212);
+    height: 50px;
+    width: 23%;
+    margin-top: 30px;
+    
+}
+
+.linhas {
+    margin-top: 30px;
+    
+}
+
+.linha1 {
+    background-color: rgb(230,230,230);
+    height: 10px;
+    width: 100%;  
+    margin-top: 20px
+}
+
+.ret-lat, .linha-lat {
+    background-color: rgb(230,230,230);
+    
+}
+
+.ret-lat {
+    height:90px;
+    width: 85%;
+    margin-bottom: 10px;
+}
+
+.linha-lat {
+    height: 10px;
+    width: 85%;
+    margin-bottom: 30px;
+}
+
+.linha-final {
+    margin-bottom: 0;
+}
+
+
+
+
