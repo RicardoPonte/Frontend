@@ -181,7 +181,10 @@ footer {
 .div-dir {
     float: right;
     margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
 }
+
 
 .dropdown-menu {
     margin-left: 580px;
